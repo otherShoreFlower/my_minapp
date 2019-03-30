@@ -1,0 +1,25 @@
+<!--pages/index/index.wxml-->
+<import src="index-template/index-template.wxml" />
+<view class="index-container container">
+    <view class='index-top'>
+      <view class="index-recommend">
+        <view class="info">
+          <text class="time">{{ getFullYear }}{{ getMonth }}</text>
+          <text class="day">{{ getDate }}</text>
+        </view>
+        <text class="today-recommend">今日推荐</text>
+      </view>
+      <view class="index-circle">
+        <view class="info">
+          <text class="shar'">朋友圈</text>
+        </view>
+        <text class="firend-circle">朋友圈歌曲</text>
+      </view>
+    </view>
+  <template is="musicTemplate" data="{{ ...newsong }}"></template>
+  <template is="musicTemplate" data="{{ ...hotsong }}"></template>
+  <template is="musicTemplate" data="{{ ...rocksong }}"></template>
+</view>
+
+
+

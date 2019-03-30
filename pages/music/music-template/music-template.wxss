@@ -1,0 +1,32 @@
+/* 音乐列表样式模板 */
+.music-list{
+  background-color: #fff;
+}
+
+.item{
+  display: flex;
+  padding: 10px;
+}
+.music-list .num{
+  flex: 1;
+  font-size: 10px;
+  color: #999;
+  margin-top: 10px;
+}
+.musicinfo{
+  flex: 5;
+}
+.name{
+  font-size: 13px;
+  display:block;
+}
+.author{
+  font-size: 10px;
+  color: #999;
+}
+.icon{
+  width:100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-left: 20px;
+}

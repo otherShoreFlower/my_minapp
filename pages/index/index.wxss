@@ -1,0 +1,43 @@
+/* pages/index/index.wxss */
+@import "index-template/index-template.wxss";
+.index-container .index-top{
+  display: flex;
+  width: 100%;
+  height: 400rpx;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.index-recommend{
+  height: 340rpx;
+  flex: 1;
+  background: url("https://wwtliu.com/sxtstu/music/1.png") no-repeat;
+  background-size: cover;
+}
+.index-circle{
+  height: 340rpx;
+  flex: 1;
+  background: url("https://wwtliu.com/sxtstu/music/2.png") no-repeat;
+  background-size: cover;
+}
+.info{
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.time,.day,.shar{
+  color:#fff;
+  font-size:15px;
+}
+.day{
+  font-size:25px;
+}
+.shar{
+  font-size:20px;
+}
+.today-recommend,.firend-circle{
+  font-size: 12px;
+}
+

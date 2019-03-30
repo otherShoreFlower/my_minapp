@@ -1,0 +1,22 @@
+/* 模板样式 */
+.sunshine{
+  background-color: #fff;
+  margin: 10px auto;
+  padding-bottom: 5px;
+}
+.sunshine-music{
+  display: flex;
+}
+.content{
+  flex: 1;
+  height: 230rpx;
+}
+.info1{
+  text-align: center;
+  font-size: 15px;
+}
+.num{
+  text-align: center;
+  font-size: 10px;
+  color:#000;
+}
